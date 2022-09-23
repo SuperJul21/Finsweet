@@ -929,6 +929,7 @@ body {
 .questions__link {
 	padding: 40px 0 40px 40px;
 	display: block;
+	position: relative;
 }
 .questions__link-title {
 	position: relative;
@@ -1608,6 +1609,14 @@ body {
 	.questions__link-text {
 		font-size: inherit;
 	}
+	.questions__acc-wrapper {
+		max-width: 700px;
+		width: 100%;
+	}
+	.questions__link-plus {
+		right: -20px;
+	}
+	
 	/*  touch 1100              */
 	.touch__inner {
 		flex-direction: column;
@@ -1732,7 +1741,8 @@ body {
 	.indicators-wrapper {
 		display: grid;
 		grid-template: repeat(2, auto) / repeat(2, auto);
-		gap: 6%;
+		gap: 6px;
+		padding-bottom: 50px;
 	}
 	.indicators-item {
 		margin-top: 1%;
@@ -1756,10 +1766,11 @@ body {
 	.cars__item-text {
 		display: none;
 	}
-	/*  my-map 700              */
+	/*  mark 700              */
 	.main__mark {
 		background: none;
 		height: 250px;
+		margin-top: 50px;
 	}
 	.my-map {
 		height: 250px;
@@ -1809,6 +1820,25 @@ body {
 	.cars__item-info {
 		display: none;
 	}
+	/*  touch 600              */
+	.touch__form-row {
+		flex-direction: column;
+	}
+	.touch__form-label {
+		margin-right: 0;
+	}
+	.touch__form-select {
+		width: 100%;
+	}
+	.touch__checkbox-label, .touch__form-btn {
+		align-self: flex-start;
+	}
+	.touch__form-btn {
+		margin-top: 10px;
+	}
+	.touch__info-content {
+		font-size: inherit;
+	}
 	/*  reviews 600              */
 	.reviews__slider-arrows {
 		display: none;
@@ -1820,6 +1850,9 @@ body {
 	.questions__link-title {
 		padding-right: 10px;
 		font-size: 17px;
+	}
+	.questions__link-plus {
+		right: -5px;
 	}
 	/*  footer 600              */
 	.footer__bottom-inner {
@@ -1852,9 +1885,7 @@ body {
 		font-size: 22px;
 	}
 
-	.indicators-wrapper {
-		padding-bottom: 50px;
-	}
+	
 	
 }
 
@@ -1898,12 +1929,16 @@ body {
 		margin: -16px -40px 10px;
 	}
 	/*   450                        */
-	.main__offer-service {
+	.main__offer-service, .main__review, .main__questions, .main__cars, .footer__top {
 		padding: 50px 0;
-  }
-  .main__process {
-	margin-top: 50px;
-}
+	}
+	.main__touch {
+		padding-bottom: 50px;
+	}
+	.main__process {
+		margin-top: 50px;
+	}
+
 	/*  offer 450                   */
 	.offer-title-heading {
 		text-align: center;
@@ -1916,22 +1951,27 @@ body {
 	/*       ad 450                 */
 	.ad__poster {
 		height: 400px;
-  }
+	}
 	/*  indicators 450              */
 	.indicators-wrapper {
 		display: grid;
 		grid-template: repeat(4, auto) / repeat(1, auto);
-		gap: 6%;
+		gap: 6px;
 		justify-content: center;
-		padding-bottom: 100px;
 	}
 	/*  brands 450                  */
+	.brands {
+		padding: 50px 0;
+	}
 	.brands__item-wrapper {
 	display: grid;
 	grid-template: repeat(6, auto) / repeat(1, auto);
 	text-align: center;
 	}
 	/*  blog 450                     */
+	.blog__inner {
+		margin: 50px 0;
+	}
 	.blog__list {
 		grid-template: repeat(6, auto) / repeat(1, auto);
 	}
@@ -1948,4 +1988,15 @@ body {
 	}
 	.reviews__slider {
 		padding: 35px;
-} 
+	} 
+	.questions__link-title {
+		font-size: 14px;
+		padding-right: 55px;
+	}
+	.questions__link-text {
+		font-size: 12px;
+	}
+	.touch__form-btn {
+		width: 100%;
+	}
+}
