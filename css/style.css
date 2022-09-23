@@ -126,7 +126,7 @@ body {
 }
 .header__contact::before {
   content: "";
-  background: url("/assets/img/icon/assist.svg") no-repeat;
+  background: url("../assets/img/icon/assist.svg") no-repeat;
   width: 40px;
   height: 40px;
   display: block;
@@ -209,7 +209,7 @@ body {
 }
 .header__schedule::before {
   content: "";
-  background: url("/assets/img/icon/clock.svg") no-repeat;
+  background: url("../assets/img/icon/clock.svg") no-repeat;
   width: 31px;
   height: 31px;
   display: block;
@@ -386,7 +386,7 @@ body {
   content: "";
   width: 53px;
   height: 16px;
-  background: url("/assets/img/icon/arrow-right.svg");
+  background: url("../assets/img/icon/arrow-right.svg");
   display: inline-block;
   margin-left: 13px;
 }
@@ -539,7 +539,7 @@ body {
 .process-title__icon-1::before {
   content: "01";
   color: white;
-  background: url("/assets/img/icon/follow.svg") no-repeat;
+  background: url("../assets/img/icon/follow.svg") no-repeat;
   width: 72px;
   height: 72px;
   display: block;
@@ -579,7 +579,7 @@ body {
 .process-title__icon-2::before {
 	content: "02";
 	color: white;
-	background: url("/assets/img/icon/follow.svg") no-repeat;
+	background: url("../assets/img/icon/follow.svg") no-repeat;
 	width: 72px;
 	height: 72px;
 	display: block;
@@ -610,7 +610,7 @@ body {
 .process-title__icon-3::before {
 	content: "03";
 	color: white;
-	background: url("/assets/img/icon/follow.svg") no-repeat;
+	background: url("../assets/img/icon/follow.svg") no-repeat;
 	width: 72px;
 	height: 72px;
 	display: block;
@@ -1068,7 +1068,7 @@ body {
 	content: "";
 	width: 25px;
 	height: 25px;
-	background: url("/assets/img/icon/cars-writer.png") 0 0 / 100% no-repeat;
+	background: url("../assets/img/icon/cars-writer.png") 0 0 / 100% no-repeat;
 	display: block;
 	margin-right: 5px;
 }
@@ -1101,19 +1101,19 @@ body {
 	content: "";
 	width: 23px;
 	height: 16px;
-	background: url("/assets/img/icon/Arrow-review.svg") 0 0 / 100% no-repeat;
+	background: url("../assets/img/icon/Arrow-review.svg") 0 0 / 100% no-repeat;
 	margin-left: 10px;
 	display: block;
 	transform: rotate(180deg);
 }
 .cars__item--article .cars__item-type::before {
-	background: url("/assets/img/icon/car-article-icon.svg") 0 0 / 100% no-repeat;
+	background: url("../assets/img/icon/car-article-icon.svg") 0 0 / 100% no-repeat;
 }
 .cars__item--podcast .cars__item-type::before {
-	background: url("/assets/img/icon/car-podcast-icon.svg") 0 0 / 100% no-repeat;
+	background: url("../assets/img/icon/car-podcast-icon.svg") 0 0 / 100% no-repeat;
 }
 .cars__item--video .cars__item-type::before {
-	background: url("/assets/img/icon/car-video-icon.svg") 0 0 / 100% no-repeat;
+	background: url("../assets/img/icon/car-video-icon.svg") 0 0 / 100% no-repeat;
 }
 
 /*    touch                                     */
@@ -1239,7 +1239,7 @@ body {
 }
 
 .touch__form-default:checked + .touch__form-custom {
-	background: url("/assets/img/icon/touch-check.svg") 50% 10% no-repeat #fff;
+	background: url("../assets/img/icon/touch-check.svg") 50% 10% no-repeat #fff;
 }
 
 .touch__form-btn {
